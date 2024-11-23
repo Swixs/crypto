@@ -1,0 +1,26 @@
+.border {
+    width: 998px;
+    height: 198px;
+    margin: 40px auto;
+    border-radius: 20px;
+    background-color: #E7E7E7;
+    border: 1px solid lightsteelblue
+}
+
+.change {
+    width: 470px;
+    height: 166px;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid lightsteelblue;
+}
+
+.counter {
+    width: 430px;
+    margin: 20px auto;
+    height: 94px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid lightsteelblue;
+}
