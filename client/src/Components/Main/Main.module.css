@@ -1,26 +1,98 @@
 .border {
-    width: 998px;
-    height: 198px;
-    margin: 40px auto;
-    border-radius: 20px;
-    background-color: #E7E7E7;
-    border: 1px solid lightsteelblue
+  width: 998px;
+  height: 198px;
+  margin: 40px auto;
+  border-radius: 20px;
+  background-color: #e7e7e7;
+  border: 1px solid #d5d5d5;
 }
 
 .change {
-    width: 470px;
-    height: 166px;
-    margin: 20px auto;
-    border-radius: 20px;
-    background-color: #fff;
-    border: 1px solid lightsteelblue;
+  width: 470px;
+  height: 166px;
+  margin: 20px auto;
+  border-radius: 20px;
+  background-color: #fff;
+  border: Mixed solid #e7e7e7;
 }
 
-.counter {
-    width: 430px;
-    margin: 20px auto;
-    height: 94px;
-    border-radius: 20px;
-    background-color: #fff;
-    border: 1px solid lightsteelblue;
+.borderLeft {
+  margin: 20px 10px;
+  background-color: #fff;
+}
+
+.borderRight {
+  margin: 20px 10px;
+  background-color: #fff;
+}
+
+.ellipse {
+  width: 58px;
+  height: 58px;
+  position: relative;
+  top: 160px;
+  left: 927px;
+}
+
+.arrows {
+  width: 36px;
+  height: 33px;
+  position: relative;
+  top: 148px;
+  left: 880px;
+}
+
+.textSend {
+  position: relative;
+  left: 29px;
+  top: -110px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.inputLeft {
+  position: relative;
+  top: -85px;
+  left: 30px;
+  height: 35px;
+  max-width: 110px;
+  font-size: 45px;
+  border: none;
+  color: #bbb8b8;
+}
+
+.inputLeft:focus {
+  outline: none;
+}
+
+.inputLeft::placeholder {
+  color: #bbb8b8;
+}
+
+.dropmenu {
+  max-width: 140px;
+  position: relative;
+  left: 309px;
+  top: -135px;
+  max-height: 30px;
+}
+
+.textCoin {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.textPrice {
+  max-width: 128px;
+  background-color: rgb(180, 180, 180);
+  position: relative;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 25px;
+  top: -93px;
+  left: 26px;
 }
