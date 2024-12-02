@@ -11,7 +11,6 @@ import { fetchCoins } from "../../Store/coinsSlice";
 import borderLeft from "../../Images/DetailsMain/border-left.png";
 
 const MainSend = ({ setSendValue, setSendCoinPrice }) => {
-
   const dispatch = useDispatch();
   const { coins } = useSelector((state) => state.coins);
 
@@ -41,8 +40,6 @@ const MainSend = ({ setSendValue, setSendCoinPrice }) => {
   useEffect(() => {
     dispatch(fetchCoins());
   }, [dispatch]);
-
-  
 
   const selectedCoinData = coins.find((coin) => coin.id === selectedCoin);
   const selectedCoinPrice = selectedCoinData
@@ -105,6 +102,15 @@ const MainSend = ({ setSendValue, setSendCoinPrice }) => {
                   </div>
                 </div>
               );
+            }}
+            MenuProps={{
+              PaperProps: {
+                style: {
+                  transform: "translate(-10px, 0px)",
+                  maxHeight: 200, 
+                  width: 200, 
+                },
+              },
             }}
           >
             {coins.map((coin) => (

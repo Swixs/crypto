@@ -55,6 +55,7 @@ function Navbar() {
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
           <Typography
+            href="/"
             variant="h6"
             noWrap
             component="a"

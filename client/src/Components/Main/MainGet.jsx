@@ -17,7 +17,6 @@ const MainGet = ({ getValue, setGetCoinPrice }) => {
 
   const tether = coins.find((coin) => coin.id === "tether");
   const tetherPrice = tether ? tether.current_price : 0;
-  
 
   const handleGetCoinSelect = (coinId) => {
     setSelectedCoin(coinId);
@@ -90,6 +89,15 @@ const MainGet = ({ getValue, setGetCoinPrice }) => {
                   </div>
                 </div>
               );
+            }}
+            MenuProps={{
+              PaperProps: {
+                style: {
+                  transform: "translate(-10px, 0)",
+                  maxHeight: 200, 
+                  width: 200, 
+                },
+              },
             }}
           >
             {coins.map((coin) => (
